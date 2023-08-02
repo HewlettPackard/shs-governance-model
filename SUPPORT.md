@@ -1,10 +1,10 @@
 # Support
 
-This article explains where to get help with remark.
+This article explains where to get help with [insert project name here].
 Please read through the following guidelines.
 
 > 👉 **Note**: before participating in our community, please read our
-> [code of conduct][code-of-conduct].
+> [code of conduct][CODE_OF_CONDUCT.md].
 > By interacting with this repository, organization, or community you agree to
 > abide by its terms.
 ## Asking quality questions
@@ -35,23 +35,19 @@ Here are some tips:
 
 See [`contributing.md`][contributing] on how to contribute.
 
-## License
+## Communication
 
-[GPLv2][license] © [HPE Inc.][author]
+### Slack
+
+### Distribution Lists
+
+- [dev-mailing-list](dev-mailing-list)
+- [user-mailing-list][(user-mailing-list)]
+- [team-mailing-list](team-mailing-list)
+- [security-reporting-mailing-list](security-reporting)
+- [security-vulnerability-disclosures-mailing-list](vulnerability-dl)
+
+
 
 <!-- Definitions -->
-
-[license]: https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
-
-[author]: https://hpe.com
-
-[coc]: CODE_OF_CONDUCT.md 
-
-[rubberduck]: https://rubberduckdebugging.com
-
-[xy]: https://meta.stackexchange.com/questions/66377/what-is-the-xy-problem/66378#66378
-
-[slack]: https://app.slack.com/client/T02FUJE3F/C0277KL6UGH
-
-[contributing]: contributing.md
 

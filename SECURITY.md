@@ -1,141 +1,93 @@
 # Security Release Process
-Harbor is a large growing community devoted in creating a private enterprise-grade registry for all your cloud native assets. The community has adopted this security disclosure and response policy to ensure we responsibly handle critical issues.
+[insert project name here] is a  growing community devoted in creating [insert project objective here]. The community has adopted this security disclosure and response policy to ensure we responsibly handle critical issues.
 
 ## Supported Versions
-The Harbor project maintains release branches for the three most recent minor releases. Applicable fixes, including security fixes, may be backported to those three release branches, depending on severity and feasibility. Please refer to [RELEASES.md](https://github.com/goharbor/harbor/blob/main/RELEASES.md) for details.
+The [insert project name here] project maintains release branches for the three most recent minor releases. Applicable fixes, including security fixes, may be backported to those three release branches, depending on severity and feasibility. Please refer to [RELEASES.md](https://github.com/goharbor/harbor/blob/main/RELEASES.md) for details.
 
 ## Reporting a Vulnerability - Private Disclosure Process
-Security is of the highest importance and all security vulnerabilities or suspected security vulnerabilities should be reported to Harbor privately, to minimize attacks against current users of Harbor before they are fixed. Vulnerabilities will be investigated and patched on the next patch (or minor) release as soon as possible. This information could be kept entirely internal to the project.  
+Security is of the highest importance and all security vulnerabilities or suspected security vulnerabilities should be reported to [insert project name here] privately, to minimize attacks against current users of [insert project name here] before they are fixed. Vulnerabilities will be investigated and patched on the next patch (or minor) release as soon as possible. This information could be kept entirely internal to the project.  
 
-If you know of a publicly disclosed security vulnerability for Harbor, please **IMMEDIATELY** contact cncf-harbor-security@lists.cncf.io to inform the Harbor Security Team.
- 
+If you know of a publicly disclosed security vulnerability for [insert project name here], please **IMMEDIATELY** contact security-alias@org.com to inform the [insert project name here] Security Team.
+
 **IMPORTANT: Do not file public issues on GitHub for security vulnerabilities**
 
-To report a vulnerability or a security-related issue, please email the private address cncf-harbor-security@lists.cncf.io with the details of the vulnerability. The email will be fielded by the Harbor Security Team, which is made up of Harbor maintainers who have committer and release permissions. Emails will be addressed within 3 business days, including a detailed plan to investigate the issue and any potential workarounds to perform in the meantime. Do not report non-security-impacting bugs through this channel. Use [GitHub issues](https://github.com/goharbor/harbor/issues/new/choose) instead.
+To report a vulnerability or a security-related issue, please email the private address security-alias@org.com with the details of the vulnerability. The email will be fielded by the [insert project name here] Security Team, which is made up of [insert project name here] maintainers who have committer and release permissions. Emails will be addressed within 3 business days, including a detailed plan to investigate the issue and any potential workarounds to perform in the meantime. Do not report non-security-impacting bugs through this channel. Use [GitHub issues](https://github.com/org/project/issues/new/choose) instead.
 
 ### Proposed Email Content
 Provide a descriptive subject line and in the body of the email include the following information:
 * Basic identity information, such as your name and your affiliation or company.
+* Type of issue (e.g. buffer overflow, SQL injection, cross-site scripting, etc.)
+* Full paths of source file(s) related to the manifestation of the issue
+* The location of the affected source code (tag/branch/commit or direct URL)
+* Any special configuration required to reproduce the issue
 * Detailed steps to reproduce the vulnerability  (POC scripts, screenshots, and compressed packet captures are all helpful to us).
-* Description of the effects of the vulnerability on Harbor and the related hardware and software configurations, so that the Harbor Security Team can reproduce it.
-* How the vulnerability affects Harbor usage and an estimation of the attack surface, if there is one.
-* List other projects or dependencies that were used in conjunction with Harbor to produce the vulnerability.
- 
+* Proof-of-concept or exploit code (if possible)
+* Impact of the issue, including how an attacker might exploit the issue
+  * Description of the effects of the vulnerability on [insert project name here] and the related hardware and software configurations, so that the [insert project name here] Security Team can reproduce it.
+
+* How the vulnerability affects [insert project name here] usage and an estimation of the attack surface, if there is one.
+* List other projects or dependencies that were used in conjunction with [insert project name here] to produce the vulnerability.
+
+This information will help us triage your report more quickly.
+
+**Please provide as much information as possible from above, but notify security-mailing-list@org.com as soon as possible even if some of the information cannot be immediately provided.** 
+
 ## When to report a vulnerability
-* When you think Harbor has a potential security vulnerability.
-* When you suspect a potential vulnerability, but you are unsure that it impacts Harbor.
-* When you know of or suspect a potential vulnerability on another project that is used by Harbor. For example Harbor has a dependency on Docker, PGSql, Redis, Notary, Trivy, etc.
+* When you think [insert project name here] has a potential security vulnerability.
+* When you suspect a potential vulnerability, but you are unsure that it impacts [insert project name here].
+* When you know of or suspect a potential vulnerability on another project that is used by [insert project name here]. For example [insert project name here] has a dependency on [insert dependency list here], etc.
   
 ## Patch, Release, and Disclosure
-The Harbor Security Team will respond to vulnerability reports as follows:
- 
+The [insert project name here] Security Team will respond to vulnerability reports as follows:
+
 1.  The Security Team will investigate the vulnerability and determine its effects and criticality.
 2.  If the issue is not deemed to be a vulnerability, the Security Team will follow up with a detailed reason for rejection.
 3.  The Security Team will initiate a conversation with the reporter within 3 business days.
 4.  If a vulnerability is acknowledged and the timeline for a fix is determined, the Security Team will work on a plan to communicate with the appropriate community, including identifying mitigating steps that affected users can take to protect themselves until the fix is rolled out.
 5.  The Security Team will also create a [CVSS](https://www.first.org/cvss/specification-document) using the [CVSS Calculator](https://www.first.org/cvss/calculator/3.0). The Security Team makes the final call on the calculated CVSS; it is better to move quickly than making the CVSS perfect. Issues may also be reported to [Mitre](https://cve.mitre.org/) using this [scoring calculator](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator). The CVE will initially be set to private.
 6.  The Security Team will work on fixing the vulnerability and perform internal testing before preparing to roll out the fix.
-7.  The Security Team will provide early disclosure of the vulnerability by emailing the cncf-harbor-distributors-announce@lists.cncf.io mailing list. Distributors can initially plan for the vulnerability patch ahead of the fix, and later can test the fix and provide feedback to the Harbor team. See the section **Early Disclosure to Harbor Distributors List** for details about how to join this mailing list. 
-8. A public disclosure date is negotiated by the Harbor Security Team, the bug submitter, and the distributors list. We prefer to fully disclose the bug as soon as possible once a user mitigation or patch is available. It is reasonable to delay disclosure when the bug or the fix is not yet fully understood, the solution is not well-tested, or for distributor coordination. The timeframe for disclosure is from immediate (especially if it’s already publicly known) to a few weeks. For a critical vulnerability with a straightforward mitigation, we expect report date to public disclosure date to be on the order of 14 business days. The Harbor Security Team holds the final say when setting a public disclosure date.
-9.  Once the fix is confirmed, the Security Team will patch the vulnerability in the next patch or minor release, and backport a patch release into all earlier supported releases. Upon release of the patched version of Harbor, we will follow the **Public Disclosure Process**.
+7.  The Security Team will provide early disclosure of the vulnerability by emailing the security-mailinglist@org.com mailing list. Distributors can initially plan for the vulnerability patch ahead of the fix, and later can test the fix and provide feedback to the [insert project name here] team. See the section **Early Disclosure to [insert project name here] Distributors List** for details about how to join this mailing list. 
+8. A public disclosure date is negotiated by the [insert project name here] Security Team, the bug submitter, and the distributors list. We prefer to fully disclose the bug as soon as possible once a user mitigation or patch is available. It is reasonable to delay disclosure when the bug or the fix is not yet fully understood, the solution is not well-tested, or for distributor coordination. The timeframe for disclosure is from immediate (especially if it’s already publicly known) to a few weeks. For a critical vulnerability with a straightforward mitigation, we expect report date to public disclosure date to be on the order of 14 business days. The [insert project name here] Security Team holds the final say when setting a public disclosure date.
+9.  Once the fix is confirmed, the Security Team will patch the vulnerability in the next patch or minor release, and backport a patch release into all earlier supported releases. Upon release of the patched version of [insert project name here], we will follow the **Public Disclosure Process**.
 
 ### Public Disclosure Process
-The Security Team publishes a public [advisory](https://github.com/goharbor/harbor/security/advisories) to the Harbor community via GitHub. In most cases, additional communication via Slack, Twitter, CNCF lists, blog and other channels will assist in educating Harbor users and rolling out the patched release to affected users. 
+The Security Team publishes a public [advisory](https://github.com/goharbor/harbor/security/advisories) to the [insert project name here] community via GitHub. In most cases, additional communication via Slack, security mailing lists, and other channels will assist in educating [insert project name here] users and rolling out the patched release to affected users. 
 
-The Security Team will also publish any mitigating steps users can take until the fix can be applied to their Harbor instances. Harbor distributors will handle creating and publishing their own security advisories.
- 
+The Security Team will also publish any mitigating steps users can take until the fix can be applied to their [insert project name here] instances. [insert project name here] distributors will handle creating and publishing their own security advisories.
+
 ## Mailing lists
-- Use cncf-harbor-security@lists.cncf.io to report security concerns to the Harbor Security Team, who uses the list to privately discuss security issues and fixes prior to disclosure.
-- Join cncf-harbor-distributors-announce@lists.cncf.io for early private information and vulnerability disclosure. Early disclosure may include mitigating steps and additional information on security patch releases. See below for information on how Harbor distributors or vendors can apply to join this list.
+- Use security-mailing-list@org.com to report security concerns to the [insert project name here] Security Team, who uses the list to privately discuss security issues and fixes prior to disclosure.
+- Join security-vulnerability-disclosure@org.com for early private information and vulnerability disclosure. Early disclosure may include mitigating steps and additional information on security patch releases. See below for information on how [insert project name here] distributors or vendors can apply to join this list.
 
-## Early Disclosure to Harbor Distributors List
+## Early Disclosure to [insert project name here] Distributors List
 This private list is intended to be used primarily to provide actionable information to multiple distributor projects at once. This list is not intended to inform individuals about security issues.
 
 ### Membership Criteria
-To be eligible to join the cncf-harbor-distributors-announce@lists.cncf.io mailing list, you should:
-1. Be an active distributor of Harbor.
-2. Have a user base that is not limited to your own organization.
+To be eligible to join the security-vulnerability-disclosure@org.com mailing list, you should:
+1. Be an active distributor of [insert project name here].
+2. Have a user base that is not limited to your own organization. **[ maybe remove this... ]**
 3. Have a publicly verifiable track record up to the present day of fixing security issues.
 4. Not be a downstream or rebuild of another distributor.
-5. Be a participant and active contributor in the Harbor community.
+5. Be a participant and active contributor in the [insert project name here] community.
 6. Accept the Embargo Policy that is outlined below. 
 7. Has someone who is already on the list vouch for the person requesting membership on behalf of your distribution.
 
 **The terms and conditions of the Embargo Policy apply to all members of this mailing list. A request for membership represents your acceptance to the terms and conditions of the Embargo Policy**
 
 ### Embargo Policy
-The information that members receive on cncf-harbor-distributors-announce@lists.cncf.io must not be made public, shared, or even hinted at anywhere beyond those who need to know within your specific team, unless you receive explicit approval to do so from the Harbor Security Team. This remains true until the public disclosure date/time agreed upon by the list. Members of the list and others cannot use the information for any reason other than to get the issue fixed for your respective distribution's users.
+The information that members receive on security-disclosure-mailing-list@org.com must not be made public, shared, or even hinted at anywhere beyond those who need to know within your specific team, unless you receive explicit approval to do so from the [insert project name here] Security Team. This remains true until the public disclosure date/time agreed upon by the list. Members of the list and others cannot use the information for any reason other than to get the issue fixed for your respective distribution's users.
 Before you share any information from the list with members of your team who are required to fix the issue, these team members must agree to the same terms, and only be provided with information on a need-to-know basis.
 
-In the unfortunate event that you share information beyond what is permitted by this policy, you must urgently inform the cncf-harbor-security@lists.cncf.io mailing list of exactly what information was leaked and to whom. If you continue to leak information and break the policy outlined here, you will be permanently removed from the list.
- 
+In the unfortunate event that you share information beyond what is permitted by this policy, you must urgently inform the security-mailing-list@org.com mailing list of exactly what information was leaked and to whom. If you continue to leak information and break the policy outlined here, you will be permanently removed from the list.
+
 ### Requesting to Join
-Send new membership requests to cncf-harbor-security@lists.cncf.io.
+Send new membership requests to security-mailing-list@org.com 
 In the body of your request please specify how you qualify for membership and fulfill each criterion listed in the Membership Criteria section above.
 
 ## Confidentiality, integrity and availability
-We consider vulnerabilities leading to the compromise of data confidentiality, elevation of privilege, or integrity to be our highest priority concerns. Availability, in particular in areas relating to DoS and resource exhaustion, is also a serious security concern. The Harbor Security Team takes all vulnerabilities, potential vulnerabilities, and suspected vulnerabilities seriously and will investigate them in an urgent and expeditious manner.
+We consider vulnerabilities leading to the compromise of data confidentiality, elevation of privilege, or integrity to be our highest priority concerns. Availability, in particular in areas relating to DoS and resource exhaustion, is also a serious security concern. The [insert project name here] Security Team takes all vulnerabilities, potential vulnerabilities, and suspected vulnerabilities seriously and will investigate them in an urgent and expeditious manner.
 
-Note that we do not currently consider the default settings for Harbor to be secure-by-default. It is necessary for operators to explicitly configure settings, role based access control, and other resource related features in Harbor to provide a hardened Harbor environment. We will not act on any security disclosure that relates to a lack of safe defaults. Over time, we will work towards improved safe-by-default configuration, taking into account backwards compatibility.
-
-
-
-
-
-
-# Reporting Security Vulnerabilities
-
-Oracle values the independent security research community and believes that responsible disclosure of security vulnerabilities helps us ensure the security and privacy of all our users.
-
-Please do NOT raise a GitHub Issue to report a security vulnerability. If you believe you have found a security vulnerability, please submit a report to secalert_us@oracle.com preferably with a proof of concept. We provide additional information on [how to report security vulnerabilities to Oracle](https://www.oracle.com/corporate/security-practices/assurance/vulnerability/reporting.html) which includes public encryption keys for secure email.
-
-We ask that you do not use other channels or contact project contributors directly. 
-
-Non-vulnerability related security issues such as new great new ideas for security features are welcome on GitHub Issues. 
-
-## Security Updates, Alerts and Bulletins
-
-Security updates will be released on a regular cadence. Many of our projects will typically release security fixes in conjunction with the [Oracle Critical Patch Update](https://www.oracle.com/security-alerts/) program. Security updates are released on the Tuesday closest to the 17th day of January, April, July and October. A pre-release announcement will be published on the Thursday preceding each release. Additional information, including past advisories, is available on our [Security Alerts](https://www.oracle.com/security-alerts/) page.
-
-## Security-Related Information
-
-We will provide security related information such as a threat model, considerations for secure use, or any known security issues in our documentation. Please note that labs and sample code are intended to demonstrate a concept and may not be sufficiently hardened for production use.
-
-
-
-
-
-
-
-## Security
-
-Microsoft takes the security of our software products and services seriously, which includes all source code repositories managed through our GitHub organizations, which include [Microsoft](https://github.com/Microsoft), [Azure](https://github.com/Azure), [DotNet](https://github.com/dotnet), [AspNet](https://github.com/aspnet), [Xamarin](https://github.com/xamarin), and [our GitHub organizations](https://opensource.microsoft.com/).
-
-If you believe you have found a security vulnerability in any Microsoft-owned repository that meets [Microsoft's definition of a security vulnerability](https://aka.ms/opensource/security/definition), please report it to us as described below.
-
-## Reporting Security Issues
-
-**Please do not report security vulnerabilities through public GitHub issues.**
-
-Instead, please report them to the Microsoft Security Response Center (MSRC) at [https://msrc.microsoft.com/create-report](https://aka.ms/opensource/security/create-report).
-
-If you prefer to submit without logging in, send email to [secure@microsoft.com](mailto:secure@microsoft.com).  If possible, encrypt your message with our PGP key; please download it from the [Microsoft Security Response Center PGP Key page](https://aka.ms/opensource/security/pgpkey).
-
-You should receive a response within 24 hours. If for some reason you do not, please follow up via email to ensure we received your original message. Additional information can be found at [microsoft.com/msrc](https://aka.ms/opensource/security/msrc). 
-
-Please include the requested information listed below (as much as you can provide) to help us better understand the nature and scope of the possible issue:
-
-  * Type of issue (e.g. buffer overflow, SQL injection, cross-site scripting, etc.)
-  * Full paths of source file(s) related to the manifestation of the issue
-  * The location of the affected source code (tag/branch/commit or direct URL)
-  * Any special configuration required to reproduce the issue
-  * Step-by-step instructions to reproduce the issue
-  * Proof-of-concept or exploit code (if possible)
-  * Impact of the issue, including how an attacker might exploit the issue
-
-This information will help us triage your report more quickly.
-
-If you are reporting for a bug bounty, more complete reports can contribute to a higher bounty award. Please visit our [Microsoft Bug Bounty Program](https://aka.ms/opensource/security/bounty) page for more details about our active programs.
+Note that we do not currently consider the default settings for [insert project name here] to be secure-by-default. It is necessary for operators to explicitly configure settings, role based access control, and other resource related features in [insert project name here] to provide a hardened [insert project name here] environment. We will not act on any security disclosure that relates to a lack of safe defaults. Over time, we will work towards improved safe-by-default configuration, taking into account backwards compatibility.
 
 ## Preferred Languages
 
@@ -143,6 +95,14 @@ We prefer all communications to be in English.
 
 ## Policy
 
-Microsoft follows the principle of [Coordinated Vulnerability Disclosure](https://aka.ms/opensource/security/cvd).
+Under the principle of Coordinated Vulnerability Disclosure, researchers disclose newly discovered vulnerabilities in hardware, software, and services directly to the vendors of the affected product; to a national CERT or other coordinator who will report to the vendor privately; or to a private service that will likewise report to the vendor privately. The researcher allows the vendor the opportunity to diagnose and offer fully tested updates, workarounds, or other corrective measures before any party discloses detailed vulnerability or exploit information to the public. The vendor continues to coordinate with the researcher throughout the vulnerability investigation and provides the researcher with updates on case progress. Upon release of an update, the vendor may recognize the finder for the research and privately reporting the issue. If attacks are underway in the wild, and the vendor is still working on the update, then both the researcher and vendor work together as closely as possible to provide early public vulnerability disclosure to protect customers. The aim is to provide timely and consistent guidance to customers to help them protect themselve*s.*
 
-<!-- END MICROSOFT SECURITY.MD BLOCK -->
+For more information on CVD, please review the information provided in the following links:
+
+- [ISO/IEC 29147:2018 on Vulnerability Disclosure](https://www.iso.org/standard/72311.html)
+- [The CERT Guide to Coordinated Vulnerability Disclosure](https://resources.sei.cmu.edu/asset_files/SpecialReport/2017_003_001_503340.pdf) 
+
+<!-- Definitions -->
+
+
+
