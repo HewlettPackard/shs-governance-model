@@ -13,8 +13,8 @@ Contributors are encouraged to collaborate using the following resources in addi
   * [#user-slack-channel][users-slack] for end-user discussions
   * [#dev-slack-channel][dev-slack] for development discussions
 * Want long-form communication instead of Slack? We have two distributions lists:
-  * [slingshot-users][users-dl] for end-user discussions
-  * [slingshot-dev][dev-dl] for development discussion
+  * [insert-project-name-here-users][users-dl] for end-user discussions
+  * [insert-project-name-here-dev][dev-dl] for development discussion
   * [more lists to add]
 
 [NOTE: Add details on how to join the mailing lists]
