@@ -2,10 +2,10 @@
 [insert project name here] is a  growing community devoted in creating [insert project objective here]. The community has adopted this security disclosure and response policy to ensure we responsibly handle critical issues.
 
 ## Supported Versions
-The [insert project name here] project maintains release branches for the three most recent minor releases. Applicable fixes, including security fixes, may be backported to those three release branches, depending on severity and feasibility. Please refer to [RELEASES.md](https://github.com/goharbor/harbor/blob/main/RELEASES.md) for details.
+The [insert project name here] project maintains release branches for the three most recent minor releases. Applicable fixes, including security fixes, may be backported to those three release branches, depending on severity and feasibility. Please refer to [RELEASES.md](https://github.com/HewlettPackard/project/blob/main/RELEASES.md) for details.
 
 ## Reporting a Vulnerability - Private Disclosure Process
-Security is of the highest importance and all security vulnerabilities or suspected security vulnerabilities should be reported to [insert project name here] privately, to minimize attacks against current users of [insert project name here] before they are fixed. Vulnerabilities will be investigated and patched on the next patch (or minor) release as soon as possible. This information could be kept entirely internal to the project.  
+Security is of the highest importance and all security vulnerabilities or suspected security vulnerabilities should be reported to [insert project name here] privately, to minimize attacks against current users of [insert project name here] before they are fixed. Vulnerabilities will be investigated and patched on the next patch (or minor) release as soon as possible. This information from the initial report should be kept entirely internal to the project.  
 
 If you know of a publicly disclosed security vulnerability for [insert project name here], please **IMMEDIATELY** contact security-alias@org.com to inform the [insert project name here] Security Team.
 
@@ -51,7 +51,7 @@ The [insert project name here] Security Team will respond to vulnerability repor
 9.  Once the fix is confirmed, the Security Team will patch the vulnerability in the next patch or minor release, and backport a patch release into all earlier supported releases. Upon release of the patched version of [insert project name here], we will follow the **Public Disclosure Process**.
 
 ### Public Disclosure Process
-The Security Team publishes a public [advisory](https://github.com/goharbor/harbor/security/advisories) to the [insert project name here] community via GitHub. In most cases, additional communication via Slack, security mailing lists, and other channels will assist in educating [insert project name here] users and rolling out the patched release to affected users. 
+The Security Team publishes a public [advisory](https://github.com/HewlettPackard/project/security/advisories) to the [insert project name here] community via GitHub. In most cases, additional communication via Slack, security mailing lists, and other channels will assist in educating [insert project name here] users and rolling out the patched release to affected users. 
 
 The Security Team will also publish any mitigating steps users can take until the fix can be applied to their [insert project name here] instances. [insert project name here] distributors will handle creating and publishing their own security advisories.
 
@@ -65,12 +65,11 @@ This private list is intended to be used primarily to provide actionable informa
 ### Membership Criteria
 To be eligible to join the security-vulnerability-disclosure@org.com mailing list, you should:
 1. Be an active distributor of [insert project name here].
-2. Have a user base that is not limited to your own organization. **[ maybe remove this... ]**
-3. Have a publicly verifiable track record up to the present day of fixing security issues.
-4. Not be a downstream or rebuild of another distributor.
-5. Be a participant and active contributor in the [insert project name here] community.
-6. Accept the Embargo Policy that is outlined below. 
-7. Has someone who is already on the list vouch for the person requesting membership on behalf of your distribution.
+2. Have a publicly verifiable track record up to the present day of fixing security issues.
+3. Not be a downstream or rebuild of another distributor.
+4. Be a participant and active contributor in the [insert project name here] community.
+5. Accept the Embargo Policy that is outlined below. 
+6. Has someone who is already on the list vouch for the person requesting membership on behalf of your distribution.
 
 **The terms and conditions of the Embargo Policy apply to all members of this mailing list. A request for membership represents your acceptance to the terms and conditions of the Embargo Policy**
 
@@ -85,7 +84,7 @@ Send new membership requests to security-mailing-list@org.com
 In the body of your request please specify how you qualify for membership and fulfill each criterion listed in the Membership Criteria section above.
 
 ## Confidentiality, integrity and availability
-We consider vulnerabilities leading to the compromise of data confidentiality, elevation of privilege, or integrity to be our highest priority concerns. Availability, in particular in areas relating to DoS and resource exhaustion, is also a serious security concern. The [insert project name here] Security Team takes all vulnerabilities, potential vulnerabilities, and suspected vulnerabilities seriously and will investigate them in an urgent and expeditious manner.
+We consider vulnerabilities leading to the compromise of data confidentiality, elevation of privilege, or integrity to be our highest priority concerns. Availability, in particular in areas relating to DoS and resource exhaustion, is also a serious security concern. The [insert project name here] Security Team takes all vulnerabilities, potential vulnerabilities, and suspected vulnerabilities seriously and will investigate them in an urgent and expeditious manner. Due to the sensitive and/or confidential nature of the issue, discussions concerning work related to security vulnerabilities must NOT be occur on public or insecure channels of any kind. A security team member will establish secure channels with involved parties.
 
 Note that we do not currently consider the default settings for [insert project name here] to be secure-by-default. It is necessary for operators to explicitly configure settings, role based access control, and other resource related features in [insert project name here] to provide a hardened [insert project name here] environment. We will not act on any security disclosure that relates to a lack of safe defaults. Over time, we will work towards improved safe-by-default configuration, taking into account backwards compatibility.
 
