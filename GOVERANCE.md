@@ -14,14 +14,13 @@ defining how community should work together to achieve this goal.
 The following code repositories are governed by [insert organization name here] community and
 maintained under the [insert project name here] namespace.
 
-* **[SHS Product Stream](https://github.hpe.com/hpe/hpc-shs-product stream):** Main Product Stream codebase. [ this is an example]
-* **[SHS CFS](https://github.hpe.com/hpe/hpc-shs-cfs):** Product Stream Ansible Codebase for CSM integration procedures 
+* **[product](https://github.hpe.com/HewlettPackard/product):** Main Product codebase. [ this is an example]
 
 ## Community Roles
 
-* **Users:** Members that engage with the Slingshot Host Software community via any medium (Slack, WeChat, GitHub, mailing lists, etc.).
+* **Users:** Members that engage with the <project> community via any medium (Slack, WeChat, GitHub, mailing lists, etc.).
 * **Contributors:** Regular contributions to projects (documentation, code reviews, responding to issues, participation in proposal discussions, contributing code, etc.). 
-* **Maintainers**: The [insert project name here] project leaders. They are responsible for the overall health and direction of the project; final reviewers of PRs and responsible for releases. Some Maintainers are responsible for one or more components within a project, acting as technical leads for that component. Maintainers are expected to contribute code and documentation, review PRs including ensuring quality of code, triage issues, proactively fix bugs, and perform maintenance tasks for these components.
+* **Maintainers**: The [insert project name here] project leaders. They are responsible for the overall health and direction of the project; final reviewers of PRs and responsible for releases. Some Maintainers are responsible for one or more components within a project, acting as technical leads for that component. Maintainers may contribute code and documentation, proactively fix bugs, and perform maintenance tasks for these components. Maintainers are responsible for reviewing proposals and PRs including ensuring quality of code. Maintainers may be involved in triaging issues. 
 
 ### Maintainers
 
@@ -37,7 +36,7 @@ decisions as outlined above. Voting on decisions can happen on the mailing list,
 
 Ideally, all project decisions are resolved by consensus. If impossible, any
 maintainer may call a vote. Unless otherwise specified in this document, any
-vote will be decided by a supermajority of maintainers. Final decision is subject to HPE's purview
+vote will be decided by a majority of maintainers. Final decision is subject to HPE's purview
 
 ## Proposal Process
 
@@ -72,8 +71,8 @@ To maintain velocity in a project as busy as [insert project name here], the con
 Consensus](http://en.osswiki.info/concepts/lazy_consensus) is practiced. Ideas
 and / or proposals should be shared by maintainers via
 GitHub with the appropriate maintainer groups tagged. Out of respect for other contributors,
-major changes should also be accompanied by a ping on Slack or a note on the
-[insert project name here] dev [mailing list](email@org.com) as appropriate. Author(s) of proposal, Pull Requests,
+major changes should also be accompanied by an email on the 
+[insert project name here] dev [mailing list](email@org.com). Author(s) of proposal, Pull Requests,
 issues, etc.  will give a time period of no less than five (5) working days for
 comment and remain cognizant of popular observed world holidays.
 
