@@ -1,9 +1,9 @@
-Please see [CONTRIBUTING.md](contributing) for general contribution
+Please see [contributing] for general contribution
 guidelines.
-[GOVERNANCE.md](governance)
+[governance]
 describes governance guidelines and maintainer responsibilities.
 
-[MAINTAINERS.md](maintainers) contains the project maintainers.
+[maintainers] contains the project maintainers.
 
 <!-- Definitions -->
 
