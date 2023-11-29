@@ -7,7 +7,7 @@ This document defines the project governance for [insert project name here]
 **[insert project name here]** is committed to build an open, inclusive, productive,
 and self-governing open source community focused on build a high-quality integration solution
 for HPE HPC computing solutions. The community is governed by this document with the goal of
-defining how community should work together to achieve this goal. 
+defining how community should work together to achieve this goal.
 
 ## Code Repositories
 
@@ -19,12 +19,12 @@ maintained under the [insert project name here] namespace.
 ## Community Roles
 
 * **Users:** Members that engage with the <project> community via any medium (Slack, WeChat, GitHub, mailing lists, etc.).
-* **Contributors:** Regular contributions to projects (documentation, code reviews, responding to issues, participation in proposal discussions, contributing code, etc.). 
-* **Maintainers**: The [insert project name here] project leaders. They are responsible for the overall health and direction of the project; final reviewers of PRs and responsible for releases. Some Maintainers are responsible for one or more components within a project, acting as technical leads for that component. Maintainers may contribute code and documentation, proactively fix bugs, and perform maintenance tasks for these components. Maintainers are responsible for reviewing proposals and PRs including ensuring quality of code. Maintainers may be involved in triaging issues. 
+* **Contributors:** Regular contributions to projects (documentation, code reviews, responding to issues, participation in proposal discussions, contributing code, etc.).
+* **Maintainers**: The [insert project name here] project leaders. They are responsible for the overall health and direction of the project; final reviewers of PRs and responsible for releases. Some Maintainers are responsible for one or more components within a project, acting as technical leads for that component. Maintainers may contribute code and documentation, proactively fix bugs, and perform maintenance tasks for these components. Maintainers are responsible for reviewing proposals and PRs including ensuring quality of code. Maintainers may be involved in triaging issues.
 
 ### Maintainers
 
-New maintainers must be nominated by an existing maintainer and must be approved by a supermajority of existing maintainers and by HPE management as required. Likewise, maintainers can be removed by a supermajority of the existing maintainers or can resign by notifying one of the maintainers. Maintainers must be employees of HPE unless exceptions have been made otherwise. 
+New maintainers must be nominated by an existing maintainer and must be approved by a supermajority of existing maintainers and by HPE management as required. Likewise, maintainers can be removed by a supermajority of the existing maintainers or can resign by notifying one of the maintainers. Maintainers must be employees of HPE unless exceptions have been made otherwise.
 
 ### Supermajority
 
@@ -71,7 +71,7 @@ To maintain velocity in a project as busy as [insert project name here], the con
 Consensus](http://en.osswiki.info/concepts/lazy_consensus) is practiced. Ideas
 and / or proposals should be shared by maintainers via
 GitHub with the appropriate maintainer groups tagged. Out of respect for other contributors,
-major changes should also be accompanied by an email on the 
+major changes should also be accompanied by an email on the
 [insert project name here] dev [mailing list](email@org.com). Author(s) of proposal, Pull Requests,
 issues, etc.  will give a time period of no less than five (5) working days for
 comment and remain cognizant of popular observed world holidays.
@@ -92,6 +92,6 @@ Lazy consensus does _not_ apply to the process of:
 
 ## Updating Governance
 
-All substantive changes in Governance require a supermajority agreement by all maintainers or by HPE legal. 
+All substantive changes in Governance require a supermajority agreement by all maintainers or by HPE legal.
 
 <!-- Definitions -->

@@ -21,9 +21,9 @@ Contributors are encouraged to collaborate using the following resources in addi
 
 ## Issues
 
-PLEASE READ: If the issue is a security vulnerability, please follow the guidelines in our [security section](SECURITY.md). 
+PLEASE READ: If the issue is a security vulnerability, please follow the guidelines in our [security section](SECURITY.md).
 
-If you have suggestions for how this project could be improved, or want to report a bug, open an issue! We'd love all and any contributions. If you have questions, too, we'd love to hear them. 
+If you have suggestions for how this project could be improved, or want to report a bug, open an issue! We'd love all and any contributions. If you have questions, too, we'd love to hear them.
 
 It is a great way to contribute to [insert project name here] by reporting an issue. Well-written and complete bug reports are always welcome! Please open an issue on GitHub and follow the template to fill in required information.
 
@@ -114,8 +114,8 @@ Work in Progress pull requests are also welcome to get feedback early on, or if 
 ### The following simple process can be used to submit new features or changes to the existing code.
 
 - See if your feature is already being worked on. Check both the [Issues](https://github.com/url/here) and the [PRs](https://github.com/url/here) in the main [insert project name here] repository as well as the [Community repository](https://github.com/insert/url/here).
-- If the proposal is simple or small, and an issue for the proposal does not exist, then open an issue using the feature template. 
-- Otherwise, if it is a significant change then submit(open PR) the new proposal at [community/proposals/new](https://github.com/insert/url/here) using the already existing [template](PROPOSAL_TEMPLATE.md). This will insert the proposal into the queue for discussion and approval. 
+- If the proposal is simple or small, and an issue for the proposal does not exist, then open an issue using the feature template.
+- Otherwise, if it is a significant change then submit(open PR) the new proposal at [community/proposals/new](https://github.com/insert/url/here) using the already existing [template](PROPOSAL_TEMPLATE.md). This will insert the proposal into the queue for discussion and approval.
 - The proposal must be labeled as "kind/proposal" - check examples [here](include some example)
 - The proposal can be modified and adapted to meet the requirements from the community, other maintainers and contributors. The overall architecture needs to be consistent to avoid duplicate work in the [Roadmap](https://github.com/project/wiki#roadmap).
 - Proposal should be discussed at Community meeting [Community Meeting agenda](insert link here) to be presented to maintainers and contributors.

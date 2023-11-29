@@ -11,7 +11,7 @@ Please read through the following guidelines.
 
 [//]: # (Questions can go to [GitHub discussions][chat].)
 
-Questions can go to [Slack][slack]. Please reach out to the team in the #slingshot-host-software channel. 
+Questions can go to [Slack][slack]. Please reach out to the team in the #slingshot-host-software channel.
 
 Help us help you!
 Spend time framing questions and add links and resources.
