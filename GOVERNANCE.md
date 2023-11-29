@@ -52,12 +52,12 @@ status of the proposal:
 
 ## Lazy Consensus
 
-To maintain velocity in a project as busy as [insert project name here], the concept of [Lazy
+To maintain velocity in a project as busy as Slingshot, the concept of [Lazy
 Consensus](http://en.osswiki.info/concepts/lazy_consensus) is practiced. Ideas
 and / or proposals should be shared by maintainers via
 GitHub with the appropriate maintainer groups tagged. Out of respect for other contributors,
 major changes should also be accompanied by an email on the
-[insert project name here] dev [mailing list](email@org.com). Author(s) of proposal, Pull Requests,
+[slingshot-developers@hpe.com] mailing list. Author(s) of proposal, Pull Requests,
 issues, etc.  will give a time period of no less than five (5) working days for
 comment and remain cognizant of popular observed world holidays.
 
@@ -67,7 +67,7 @@ progress unless absolutely needed. The expectation is that blocking progress
 is accompanied by a guarantee to review and respond to the relevant action(s)
 (proposals, PRs, issues, etc.) in short order.
 
-Lazy Consensus is practiced for all projects in the [insert project name here] org, including
+Lazy Consensus is practiced for all projects in the Slingshot organization, including
 the main project repository, community-driven sub-projects, and the community
 repo that includes proposals and governing documents.
 
