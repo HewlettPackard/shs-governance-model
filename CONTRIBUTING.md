@@ -98,7 +98,7 @@ Documents are written with Markdown. See [Writing on GitHub](https://help.github
 
 1. Push to your fork and [submit a pull request][pr].
 
-1. Pat your self on the back and wait for your pull request to be reviewed and merged.
+1. Pat yourself on the back and wait for your pull request to be reviewed and merged.
 
 Here are a few things you can do that will increase the likelihood of your pull request being accepted:
 
@@ -107,7 +107,7 @@ Here are a few things you can do that will increase the likelihood of your pull 
 - Keep your changes as focused as possible. If there are multiple changes you would like to make that are not dependent upon each other, consider submitting them as separate pull requests.
 - Write a [good commit message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
 
-Work in Progress pull requests are also welcome to get feedback early on, or if there is something blocked you.
+Work in Progress pull requests are also beneficial to get early feedback on, or if there is something blocking you.
 
 ## Developing and proposing new features.
 
@@ -119,7 +119,7 @@ Work in Progress pull requests are also welcome to get feedback early on, or if 
 - The proposal must be labeled as "kind/proposal" - check examples [here](include some example)
 - The proposal can be modified and adapted to meet the requirements from the community, other maintainers and contributors. The overall architecture needs to be consistent to avoid duplicate work in the [Roadmap](https://github.com/project/wiki#roadmap).
 - Proposal should be discussed at Community meeting [Community Meeting agenda](insert link here) to be presented to maintainers and contributors.
-- When reviewed and approved it can be implemented either by the original submitter or anyone else from the community which we highly encourage. Open PRs in the respective repositories with all the necessary code and test changes as described in the current document.
+- When reviewed and approved, it can be implemented either by the original submitter or anyone else from the community which we highly encourage. Open PRs in the respective repositories with all the necessary code and test changes as described in the current document.
 - Once implemented or during the implementation, the PRs are reviewed by maintainers and contributors, following the best practices and methods.
 - After merging the new PRs, the proposal must be moved to [community/proposals/complete](insert url here) and marked as done!
 - You have made [insert project name here] even better, congratulations. Thank you!
