@@ -5,7 +5,10 @@
 - Highlights behavior expectations for community members.
      
 [SECURITY.md](SECURITY.md)
+- Outlines our adherence to secure software development.
+<!--
 - Additionally, consider [The Open Source Security Foundation (OpenSSF) Best Practices](https://www.bestpractices.dev/en) program.  Their badging system provides a way for Free/Libre and Open Source Software (FLOSS) projects to show that they follow best practices. Projects can voluntarily self-certify, at no cost, to explain how they follow each best practice.  Passing, silver and gold badges are available by meeting increasing levels of security criteria.
+-->
      
 [CONTRIBUTING.md](CONTRIBUTING.md) 
  - Informs people how they can make contributions to this repository.
