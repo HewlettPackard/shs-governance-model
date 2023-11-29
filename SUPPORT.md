@@ -3,10 +3,10 @@
 This article explains where to get help with [insert project name here].
 Please read through the following guidelines.
 
-> 👉 **Note**: before participating in our community, please read our
-> [code of conduct][CODE_OF_CONDUCT.md].
-> By interacting with this repository, organization, or community you agree to
-> abide by its terms.
+👉 **Note**: before participating in our community, please read our [code of conduct][CODE_OF_CONDUCT.md].
+
+By interacting with this repository, organization, or community you agree to abide by its terms.
+
 ## Asking quality questions
 
 <!-- Questions can go to [GitHub discussions][chat]. -->
@@ -18,8 +18,8 @@ Spend time framing questions and add links and resources.
 Spending the extra time up front can help save everyone time in the long run.
 Here are some tips:
 
-*   [Talk to a duck][rubberduck]!
-*   Don’t fall for the [XY problem][xy]
+*   [Talk to a duck](https://rubberduckdebugging.com/)!
+*   Don’t fall for the [XY problem](https://xyproblem.info/)
 *   Search to find out if a similar question has been asked
 *   Try to define what you need help with:
     *   Is there something in particular you want to do?
@@ -33,7 +33,7 @@ Here are some tips:
 
 ## Contributions
 
-See [`contributing.md`][contributing] on how to contribute.
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) on how to contribute.
 
 ## Communication
 
@@ -45,8 +45,8 @@ See [`contributing.md`][contributing] on how to contribute.
 
 - [slingshot-developers@hpe.com](mailto:slingshot-developers@hpe.com)
 - [slingshot-security-issues@hpe.com](mailto:slingshot-security-issues@hpe)
-  - See [SECURITY.md] for more details on how to properly use this list. 
-<!-- TODO define the remaining lists 
+  - See [SECURITY.md] for more details on how to properly use this list.
+<!-- TODO define the remaining lists
 - [user-mailing-list][(user-mailing-list)]
 - [team-mailing-list](team-mailing-list)
 - [security-reporting-mailing-list](security-reporting)

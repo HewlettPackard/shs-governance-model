@@ -1,5 +1,5 @@
 # Security Release Process
-Slingshot is a  growing community devoted in creating [insert project objective here]. The community has adopted this security disclosure and response policy to ensure we responsibly handle critical issues.
+Slingshot is a growing community devoted in creating a High-Performance Networking Software Stack for HPC use cases. The community has adopted this security disclosure and response policy to ensure we responsibly handle critical issues.
 
 ## Supported Versions
 The Slingshot project maintains release branches for the three most recent minor releases. Applicable fixes, including security fixes, may be backported to those three release branches, depending on severity and feasibility. Please refer to [RELEASES.md](https://github.com/HewlettPackard/project/blob/main/RELEASES.md) for details.
