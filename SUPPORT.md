@@ -1,9 +1,9 @@
 # Support
 
-This article explains where to get help with [insert project name here].
+This article explains where to get help with Slingshot.
 Please read through the following guidelines.
 
-👉 **Note**: before participating in our community, please read our [code of conduct][CODE_OF_CONDUCT.md].
+👉 **Note**: before participating in our community, please read our [code of conduct](CODE_OF_CONDUCT.md).
 
 By interacting with this repository, organization, or community you agree to abide by its terms.
 
@@ -11,7 +11,7 @@ By interacting with this repository, organization, or community you agree to abi
 
 <!-- Questions can go to [GitHub discussions][chat]. -->
 
-Questions can go to [Slack][slack]. Please reach out to the team in the #slingshot-host-software channel.
+Questions can go to Slack. Please reach out to the team in the #slingshot-host-software channel.
 
 Help us help you!
 Spend time framing questions and add links and resources.
