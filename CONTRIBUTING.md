@@ -18,7 +18,7 @@ TODO
 -->
 * Want long-form communication instead of Slack? We have distributions lists which you may email:
   * [slingshot-developers@hpe.com](mailto:slingshot-developers@hpe.com) for development discussion
-  * [slingshot-security-issues@hpe.com] for security vulnerability disclosures. See [SECURITY.md](SECURITY.md) for guidelines on how to use this appropriately
+  * [slingshot-security-issues@hpe.com](mailto:slingshot-security-issues@hpe.com) for security vulnerability disclosures. See [SECURITY.md](SECURITY.md) for guidelines on how to use this appropriately
 
 <!-- 
 TODO: external Slack access
