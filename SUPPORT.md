@@ -45,7 +45,7 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md) on how to contribute.
 
 - [slingshot-developers@hpe.com](mailto:slingshot-developers@hpe.com)
 - [slingshot-security-issues@hpe.com](mailto:slingshot-security-issues@hpe)
-  - See [SECURITY.md] for more details on how to properly use this list.
+  - See [SECURITY.md](SECURITY.md) for more details on how to properly use this list.
 <!-- TODO define the remaining lists
 - [user-mailing-list][(user-mailing-list)]
 - [team-mailing-list](team-mailing-list)
