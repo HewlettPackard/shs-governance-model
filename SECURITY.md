@@ -8,7 +8,7 @@ The Slingshot project maintains release branches for the three most recent minor
 ## Reporting a Vulnerability - Private Disclosure Process
 Security is of the highest importance and all security vulnerabilities or suspected security vulnerabilities should be reported to Slingshot privately, to minimize attacks against current users of Slingshot before they are fixed. Vulnerabilities will be investigated and patched on the next patch (or minor) release as soon as possible. This information from the initial report should be kept entirely internal to the project.
 
-If you know of a publicly disclosed security vulnerability for Slingshot, please **IMMEDIATELY** contact security-alias@org.com to inform the Slingshot Security Team.
+If you know of a publicly disclosed security vulnerability for Slingshot, please **IMMEDIATELY** contact slingshot-security-issues@hpe.com to inform the Slingshot Security Team.
 
 **IMPORTANT: Do not file public issues on GitHub for security vulnerabilities**
 
@@ -32,7 +32,7 @@ Provide a descriptive subject line and in the body of the email include the foll
 
 This information will help us triage your report more quickly.
 
-**Please provide as much information as possible from above, but notify security-mailing-list@org.com as soon as possible even if some of the information cannot be immediately provided.**
+**Please provide as much information as possible from above, but notify slingshot-security-issues@hpe.com as soon as possible even if some of the information cannot be immediately provided.**
 
 ## When to report a vulnerability
 * When you think Slingshot has a potential security vulnerability.
@@ -65,7 +65,7 @@ The Security Team will also publish any mitigating steps users can take until th
 This private list is intended to be used primarily to provide actionable information to multiple distributor projects at once. This list is not intended to inform individuals about security issues.
 
 ### Membership Criteria
-To be eligible to join the security-vulnerability-disclosure@org.com mailing list, you should:
+To be eligible to join the slingshot-vulnerability-disclosure@hpe.com mailing list, you should:
 1. Be an active distributor of Slingshot.
 2. Have a publicly verifiable track record up to the present day of fixing security issues.
 3. Not be a downstream or rebuild of another distributor.
@@ -76,13 +76,13 @@ To be eligible to join the security-vulnerability-disclosure@org.com mailing lis
 **The terms and conditions of the Embargo Policy apply to all members of this mailing list. A request for membership represents your acceptance to the terms and conditions of the Embargo Policy**
 
 ### Embargo Policy
-The information that members receive on security-disclosure-mailing-list@org.com must not be made public, shared, or even hinted at anywhere beyond those who need to know within your specific team, unless you receive explicit approval to do so from the Slingshot Security Team. This remains true until the public disclosure date/time agreed upon by the list. Members of the list and others cannot use the information for any reason other than to get the issue fixed for your respective distribution's users.
+The information that members receive on slingshot-vulnerability-disclosures@hpe.com must not be made public, shared, or even hinted at anywhere beyond those who need to know within your specific team, unless you receive explicit approval to do so from the Slingshot Security Team. This remains true until the public disclosure date/time agreed upon by the list. Members of the list and others cannot use the information for any reason other than to get the issue fixed for your respective distribution's users.
 Before you share any information from the list with members of your team who are required to fix the issue, these team members must agree to the same terms, and only be provided with information on a need-to-know basis.
 
 In the unfortunate event that you share information beyond what is permitted by this policy, you must urgently inform the security-mailing-list@org.com mailing list of exactly what information was leaked and to whom. If you continue to leak information and break the policy outlined here, you will be permanently removed from the list.
 
 ### Requesting to Join
-Send new membership requests to security-mailing-list@org.com
+Send new membership requests to slingshot-security-issues@hpe.com
 In the body of your request please specify how you qualify for membership and fulfill each criterion listed in the Membership Criteria section above.
 
 ## Confidentiality, integrity and availability
