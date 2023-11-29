@@ -10,13 +10,14 @@
 [CONTRIBUTING.md](CONTRIBUTING.md) 
  - Informs people how they can make contributions to this repository.
      
-[//]: # (TODO DEI.md)
+<!--
+TODO
 
-[//]: # (TODO - Describes how the project will embrace Diversity, Equity, and Inclusion principles.)
-
-[//]: # (TODO This template was inspired by the All In Open Source and the CHAOSS Project DEI Initiative https://github.com/AllInOpenSource/ProjectBadging/blob/main/DEI.md.)
-
-[//]: # (TODO Including this template and fulfilling its requirements may allow you to badge https://github.com/AllInOpenSource/ProjectBadging your project as a DEI-friendly project.)
+DEI.md
+  - Describes how the project will embrace Diversity, Equity, and Inclusion principles.)
+  - This template was inspired by the All In Open Source and the CHAOSS Project DEI Initiative https://github.com/AllInOpenSource/ProjectBadging/blob/main/DEI.md.)
+  - Including this template and fulfilling its requirements may allow you to badge https://github.com/AllInOpenSource/ProjectBadging your project as a DEI-friendly project.)
+-->
 
 [GOVERNANCE.md](GOVERNANCE.md)
 - Describes governance guidelines and maintainer/role responsibilities.
@@ -27,11 +28,16 @@
 [SUPPORT.md](SUPPORT.md)
 - Highlights how to solicity help for the project.
 
-[//]: # (TODO: not implemented GUIDING_PRINCIPLES.md)
+<!--
+TODO: not implemented GUIDING_PRINCIPLES.md 
+  - Contains the project vision, values and principles and how we apply them in making decisions.) 
+-->
 
-[//]: # (     - Contains the project vision, values and principles and how we apply them in making decisions.)
+<!--
+TODO: not implemented ROADMAP.md
+-->
 
-[//]: # (TODO: not implemented ROADMAP.md)
-
-[//]: # (TODO: not implemented MEETING_SCHEDULE.md)
+<!--
+TODO: not implemented MEETING_SCHEDULE.md
+-->
 
