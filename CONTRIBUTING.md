@@ -13,8 +13,8 @@ Contributors are encouraged to collaborate using the following resources in addi
   * [#user-slack-channel][users-slack] for end-user discussions
   * [#dev-slack-channel][dev-slack] for development discussions
 * Want long-form communication instead of Slack? We have two distributions lists:
-  * [slingshot-users][users-dl] for end-user discussions
-  * [slingshot-dev][dev-dl] for development discussion
+  * [insert-project-name-here-users][users-dl] for end-user discussions
+  * [insert-project-name-here-dev][dev-dl] for development discussion
   * [more lists to add]
 
 [NOTE: Add details on how to join the mailing lists]
@@ -114,13 +114,14 @@ Work in Progress pull requests are also welcome to get feedback early on, or if 
 ### The following simple process can be used to submit new features or changes to the existing code.
 
 - See if your feature is already being worked on. Check both the [Issues](https://github.com/url/here) and the [PRs](https://github.com/url/here) in the main [insert project name here] repository as well as the [Community repository](https://github.com/insert/url/here).
-- Submit(open PR) the new proposal at [community/proposals/new](https://github.com/insert/url/here) using the already existing [template](PROPOSAL_TEMPLATE.md)
+- If the proposal is simple or small, and an issue for the proposal does not exist, then open an issue using the feature template. 
+- Otherwise, if it is a significant change then submit(open PR) the new proposal at [community/proposals/new](https://github.com/insert/url/here) using the already existing [template](PROPOSAL_TEMPLATE.md). This will insert the proposal into the queue for discussion and approval. 
 - The proposal must be labeled as "kind/proposal" - check examples [here](include some example)
-- The proposal can be modified and adapted to meet the requirements from the community, other maintainers and contributors. The overall architecture needs to be consistent to avoid duplicate work in the [Roadmap](https://github.com/goharbor/harbor/wiki#roadmap).
+- The proposal can be modified and adapted to meet the requirements from the community, other maintainers and contributors. The overall architecture needs to be consistent to avoid duplicate work in the [Roadmap](https://github.com/project/wiki#roadmap).
 - Proposal should be discussed at Community meeting [Community Meeting agenda](insert link here) to be presented to maintainers and contributors.
 - When reviewed and approved it can be implemented either by the original submitter or anyone else from the community which we highly encourage. Open PRs in the respective repositories with all the necessary code and test changes as described in the current document.
 - Once implemented or during the implementation, the PRs are reviewed by maintainers and contributors, following the best practices and methods.
-- After merging the new PRs, the proposal must be moved to [community/proposals](insert url here) and marked as done!
+- After merging the new PRs, the proposal must be moved to [community/proposals/complete](insert url here) and marked as done!
 - You have made [insert project name here] even better, congratulations. Thank you!
 
 ## Resources
