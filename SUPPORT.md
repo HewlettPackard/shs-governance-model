@@ -9,7 +9,7 @@ Please read through the following guidelines.
 > abide by its terms.
 ## Asking quality questions
 
-[//]: # (Questions can go to [GitHub discussions][chat].)
+<!-- Questions can go to [GitHub discussions][chat]. -->
 
 Questions can go to [Slack][slack]. Please reach out to the team in the #slingshot-host-software channel.
 
@@ -37,16 +37,21 @@ See [`contributing.md`][contributing] on how to contribute.
 
 ## Communication
 
+<!-- TODO define external slack
 ### Slack
+-->
 
 ### Distribution Lists
 
-- [dev-mailing-list](dev-mailing-list)
+- [slingshot-developers@hpe.com](mailto:slingshot-developers@hpe.com)
+- [slingshot-security-issues@hpe.com](mailto:slingshot-security-issues@hpe)
+  - See [SECURITY.md] for more details on how to properly use this list. 
+<!-- TODO define the remaining lists 
 - [user-mailing-list][(user-mailing-list)]
 - [team-mailing-list](team-mailing-list)
 - [security-reporting-mailing-list](security-reporting)
 - [security-vulnerability-disclosures-mailing-list](vulnerability-dl)
-
+-->
 
 
 <!-- Definitions -->

@@ -4,23 +4,24 @@ This document defines the project governance for [insert project name here]
 
 ## Overview
 
-**[insert project name here]** is committed to build an open, inclusive, productive,
+**Slingshot** is committed to building an open, inclusive, productive,
 and self-governing open source community focused on build a high-quality integration solution
 for HPE HPC computing solutions. The community is governed by this document with the goal of
 defining how community should work together to achieve this goal.
 
 ## Code Repositories
 
-The following code repositories are governed by [insert organization name here] community and
-maintained under the [insert project name here] namespace.
+The following code repositories are governed by Slingshot community and
+maintained under the Slingshot namespace.
 
 * **[product](https://github.hpe.com/HewlettPackard/product):** Main Product codebase. [ this is an example]
+<!-- TODO add a listing of all repositorie -->
 
 ## Community Roles
 
-* **Users:** Members that engage with the <project> community via any medium (Slack, WeChat, GitHub, mailing lists, etc.).
+* **Users:** Members that engage with the Slingshot community via any medium (Slack, WeChat, GitHub, mailing lists, etc.).
 * **Contributors:** Regular contributions to projects (documentation, code reviews, responding to issues, participation in proposal discussions, contributing code, etc.).
-* **Maintainers**: The [insert project name here] project leaders. They are responsible for the overall health and direction of the project; final reviewers of PRs and responsible for releases. Some Maintainers are responsible for one or more components within a project, acting as technical leads for that component. Maintainers may contribute code and documentation, proactively fix bugs, and perform maintenance tasks for these components. Maintainers are responsible for reviewing proposals and PRs including ensuring quality of code. Maintainers may be involved in triaging issues.
+* **Maintainers**: The Slingshot project leaders. They are responsible for the overall health and direction of the project; final reviewers of PRs and responsible for releases. Some Maintainers are responsible for one or more components within a project, acting as technical leads for that component. Maintainers may contribute code and documentation, proactively fix bugs, and perform maintenance tasks for these components. Maintainers are responsible for reviewing proposals and PRs including ensuring quality of code. Maintainers may be involved in triaging issues.
 
 ### Maintainers
 
