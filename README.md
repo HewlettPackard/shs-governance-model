@@ -29,7 +29,7 @@ DEI.md
 - List the project maintainers.
 
 [SUPPORT.md](SUPPORT.md)
-- Highlights how to solicity help for the project.
+- Highlights how to solicit help for the project.
 
 <!--
 TODO: not implemented GUIDING_PRINCIPLES.md
