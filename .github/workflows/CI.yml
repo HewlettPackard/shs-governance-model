@@ -27,5 +27,5 @@ jobs:
 
       - name: Actions DCO
         uses: tisonkun/actions-dco@v1.1
-
-          
+        with:
+          repo-token: ${{ github.token }}
