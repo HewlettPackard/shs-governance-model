@@ -74,6 +74,8 @@ This governance model repository is documentation focused. Please ensure that al
 
 We'd also love PRs. If you're thinking of a large PR, we advise opening up an issue first to talk about it, though! Look at the links below if you're not sure how to open a PR. Please submit a PR broken down into small changes bit by bit. A PR consisting of a lot of features and code changes may be hard to review. It is recommended to submit PRs in an incremental fashion.
 
+Note: Pull requests for open-source repositories must be integrated internally within HPE first by a member of the engineering team. Please open a pull request to review the code with an engineer, and someone from the team will integrate it as necessary. This will happen for some time until the team fully migrates to working on GitHub.com
+
 Note: If you split your pull request to small changes, please make sure any of the changes goes to `main` will not break anything. Otherwise, it can not be merged until this feature complete.
 
 ### Commit Requirements
