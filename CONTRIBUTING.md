@@ -72,11 +72,11 @@ This governance model repository is documentation focused. Please ensure that al
 
 ## Pull Requests
 
-We'd also love PRs. If you're thinking of a large PR, we advise opening up an issue first to talk about it, though! Look at the links below if you're not sure how to open a PR. Please submit a PR broken down into small changes bit by bit. A PR consisting of a lot of features and code changes may be hard to review. It is recommended to submit PRs in an incremental fashion.
+We'd also love PRs. If you're thinking of a large PR, we advise opening up an issue first to talk about it, though! Please submit a PR broken down into small changes bit by bit. A PR consisting of a lot of features and code changes may be hard to review. It is recommended to submit PRs in an incremental fashion.
 
-Note: Pull requests for open-source repositories must be integrated internally within HPE first by a member of the engineering team. Please open a pull request to review the code with an engineer, and someone from the team will integrate it as necessary. This will happen for some time until the team fully migrates to working on GitHub.com
+> **Important:** Pull requests will be reviewed and changes may be requested. Once a contribution is accepted, final testing, merge, and integration follow internal HPE processes. Changes will be synced back to the public repository when that process is complete. Some repositories (e.g. Libfabric) may follow a different model; refer to the contributor guidelines in each repository for specifics.
 
-Note: If you split your pull request to small changes, please make sure any of the changes goes to `main` will not break anything. Otherwise, it can not be merged until this feature complete.
+If you split your pull request to small changes, please make sure any of the changes goes to `main` will not break anything. Otherwise, it can not be merged until this feature complete.
 
 ### Commit Requirements
 
@@ -110,43 +110,30 @@ The main location for the documentation is the [website repository](https://gith
 
 Documents are written with Markdown. See [Writing on GitHub](https://help.github.com/categories/writing-on-github/) for more details.
 
-## Submitting a pull request
+### How to Submit
 
 1. [Fork][fork] and clone the repository.
-
-2. Configure and install the dependencies. 
-<!-- TODO add example -->
-
-3. Make sure the tests pass on your machine. 
-<!-- TODO add example 
-[ insert example here], note: these tests also apply the linter, so there's no need to lint separately.
--->
-
-4. Create a new branch: `git checkout -b my-branch-name`. Please use appropriate prefixes for the branch name as given below:
-   `bugfix/<my-branch-name>` for bugfix branches
-   `feature/<my-branch-name>` for feature branches
-   `hotfix/<my-branch-name>` for urgent bugfix contributions
-
-   If your contribution does not fit in any of the above categories, then use the `<username>/<my-branch-name>` name format for your branch.
-
+2. Configure and install the dependencies.
+3. If applicable, make sure the tests pass on your machine.
+4. Create a new branch: `git checkout -b my-branch-name`. Please use appropriate prefixes for the branch name:
+   - `bugfix/<my-branch-name>` for bugfix branches
+   - `feature/<my-branch-name>` for feature branches
+   - `hotfix/<my-branch-name>` for urgent bugfix contributions
+   - `<username>/<my-branch-name>` if your contribution does not fit the above categories
 5. Make your change, add tests, and make sure the tests still pass.
-
 6. Push to your fork and [submit a pull request][pr].
 
-7. Pat yourself on the back and wait for your pull request to be reviewed and merged.
+Here are a few things that will increase the likelihood of your PR being accepted:
 
-Here are a few things you can do that will increase the likelihood of your pull request being accepted:
-
-- Follow the [style guide][style]. Any linting errors should be shown when running [ insert example here].
 - Write and update tests.
 - Keep your changes as focused as possible. If there are multiple changes you would like to make that are not dependent upon each other, consider submitting them as separate pull requests.
 - Write a [good commit message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
 
-Work in Progress pull requests are also beneficial to get early feedback on, or if there is something blocking you. Please mark such pull requests as a  'draft'. See [Introducing draft pull requests](https://github.blog/2019-02-14-introducing-draft-pull-requests/) for more information.
+Work in Progress pull requests are also welcome for early feedback. Please mark such pull requests as a 'draft'. See [Introducing draft pull requests](https://github.blog/2019-02-14-introducing-draft-pull-requests/) for more information.
 
-## Developing and proposing new features.
+## Developing and Proposing New Features
 
-### The following simple process can be used to submit new features or changes to the existing code.
+The following process can be used to submit new features or changes to the existing code.
 <!-- 
 TODO add the appropriate examples and URLs
 -->
